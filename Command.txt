@@ -1,0 +1,5 @@
+newman run MyCollection.postman_collection.json -e MyEnvironment.postman_environment.json
+
+newman run MyCollection.postman_collection.json -e MyEnvironment.postman_environment.json -r cli,html
+
+newman run MyCollection.postman_collection.json -e MyEnvironment.postman_environment.json -r cli,htmlextra
